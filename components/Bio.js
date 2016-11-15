@@ -3,28 +3,14 @@ import { config } from 'config'
 import { rhythm } from 'utils/typography'
 import { prefixLink } from 'gatsby-helpers'
 import profilePic from './profile-pic.jpg'
+import { Link } from 'react-router'
 
 class Bio extends React.Component {
   render () {
     return (
-      <p
-        style={{
-          marginBottom: rhythm(2.5),
-        }}
-      >
-        <img
-          src={prefixLink(profilePic)}
-          alt={`author ${config.authorName}`}
-          style={{
-            float: 'left',
-            marginRight: rhythm(1/4),
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
-        />
-        Written by <strong>{config.authorName}</strong> who lives and works in San Francisco building useful things. <a href="https://twitter.com/kylemathews">You should follow him on Twitter</a>
-      </p>
+      <div>
+        I develop and lead web projects for <Link to={'https://drw.com'} target='_blank'>DRW Trading</Link> and have previously been at <Link to={'http://50000feet.com'} target='_blank'>50,000</Link> Feet and <Link to={'https://ten7.com'} target='_blank'>TEN7</Link>. Feel free to get in touch!
+      </div>
     )
   }
 }

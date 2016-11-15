@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  flex-basis: 100%;
+
+  &__link {
+    color: red;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+}
