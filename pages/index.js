@@ -8,6 +8,7 @@ import access from 'safe-access'
 import { config } from 'config'
 import include from 'underscore.string/include'
 import Bio from 'components/Bio'
+import Navigation from 'components/Navigation'
 
 class HomePage extends React.Component {
   render () {
@@ -22,7 +23,7 @@ class HomePage extends React.Component {
         />
         <Bio />
         Welcome to my site
-        <Link style={{boxShadow: 'none'}} to={prefixLink('blog/')}>Blog</Link>
+        <Navigation />
       </div>
     )
   }
