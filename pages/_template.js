@@ -4,6 +4,7 @@ import { Container } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import { rhythm, scale } from 'utils/typography'
 import { config } from 'config'
+import '../css/global.scss'
 
 class Template extends React.Component {
   render () {
