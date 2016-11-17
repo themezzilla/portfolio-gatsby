@@ -5,6 +5,7 @@ import { prefixLink } from 'gatsby-helpers'
 import { rhythm, scale } from 'utils/typography'
 import { config } from 'config'
 import Navigation from '../components/Navigation/Navigation'
+import Footer from '../components/Footer/Footer'
 import '../css/global.scss'
 
 class Template extends React.Component {
@@ -37,6 +38,7 @@ class Template extends React.Component {
       <Container>
         {header}
         {children}
+        <Footer />
       </Container>
     )
   }

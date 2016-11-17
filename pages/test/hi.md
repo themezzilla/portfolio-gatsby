@@ -1,6 +1,6 @@
 ---
 title: Hi
-path: "/hi/"
+path: "/blog/hi/"
 ---
 
 poopy butt
