@@ -22,8 +22,10 @@ a {
 }
 
 a {
-  color: $primary;
-
+  color: $gray;
+  box-shadow: none;
+  transition: color .2s ease;
+  
   &:hover {
     color: $secondary;
   }

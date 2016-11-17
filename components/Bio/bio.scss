@@ -3,6 +3,10 @@
 .bio {
   display: flex;
   flex-direction: row;
+
+  h3 {
+    font-weight: normal;
+  }
 }
 .me {
   border-radius: 5px;
