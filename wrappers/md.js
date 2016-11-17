@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
-import Bio from 'components/Bio'
+import Bio from 'components/Bio/Bio'
 
 import '../css/zenburn.css'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
-import '../css/nav.scss'
+import './nav.scss'
 
 class Navigation extends React.Component {
   render() {

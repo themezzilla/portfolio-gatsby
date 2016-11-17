@@ -7,8 +7,8 @@ import Helmet from "react-helmet"
 import access from 'safe-access'
 import { config } from 'config'
 import include from 'underscore.string/include'
-import Bio from 'components/Bio'
-import Navigation from 'components/Navigation'
+import Bio from 'components/Bio/Bio'
+import Navigation from 'components/Navigation/Navigation'
 
 class HomePage extends React.Component {
   render () {
