@@ -4,17 +4,17 @@ import { Container } from 'react-responsive-grid'
 import { prefixLink } from 'gatsby-helpers'
 import { rhythm, scale } from 'utils/typography'
 import { config } from 'config'
+import Navigation from '../components/Navigation/Navigation'
 import '../css/global.scss'
 
 class Template extends React.Component {
   render () {
     const { location, children } = this.props
     let header
-    if (location.pathname === prefixLink('/')) {
-      header = (
+    header = (
+      <div className='header'>
         <h1
           style={{
-            ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
@@ -30,28 +30,9 @@ class Template extends React.Component {
             {config.blogTitle}
           </Link>
         </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={prefixLink('/')}
-          >
-            {config.blogTitle}
-          </Link>
-        </h3>
-      )
-    }
+        <Navigation />
+      </div>
+    )
     return (
       <Container>
         {header}

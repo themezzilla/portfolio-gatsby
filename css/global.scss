@@ -1,9 +1,37 @@
-html {
+@import "mixins";
 
+html {
+  background-color: $primary;
 }
 
 body {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  min-height: 100vh;
+  background-color: white;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: $font;
+}
+
+a {
+  color: $primary;
+
+  &:hover {
+    color: $secondary;
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
 }

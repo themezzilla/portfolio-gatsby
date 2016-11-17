@@ -1,3 +1,5 @@
+@import "../../css/mixins";
+
 .bio {
   display: flex;
   flex-direction: row;
@@ -5,9 +7,9 @@
 .me {
   border-radius: 5px;
   display: block;
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(255,0,0,1);
-  -moz-box-shadow: 10px 10px 0px 0px rgba(255,0,0,1);
-  box-shadow: 10px 10px 0px 0px rgba(255,0,0,1);
+  -webkit-box-shadow: 10px 10px 0px 0px $primary;
+  -moz-box-shadow: 10px 10px 0px 0px $primary;
+  box-shadow: 10px 10px 0px 0px $primary;
   width: auto;
   height: 250px;
   margin-right: 25px;

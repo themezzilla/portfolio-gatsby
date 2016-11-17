@@ -22,7 +22,6 @@ class HomePage extends React.Component {
           ]}
         />
         <Bio />
-        <Navigation />
       </div>
     )
   }

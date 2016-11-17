@@ -7,7 +7,6 @@ import Helmet from "react-helmet"
 import access from 'safe-access'
 import { config } from 'config'
 import include from 'underscore.string/include'
-import Bio from 'components/Bio/Bio'
 
 class BlogIndex extends React.Component {
   render () {
@@ -40,7 +39,6 @@ class BlogIndex extends React.Component {
             {"name": "keywords", "content": "blog, articles"},
           ]}
         />
-        <Bio />
         <ul>
           {pageLinks}
         </ul>

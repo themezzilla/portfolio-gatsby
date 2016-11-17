@@ -4,9 +4,9 @@ import Helmet from "react-helmet"
 import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
-import Bio from 'components/Bio/Bio'
-
 import '../css/zenburn.css'
+import { Link } from 'react-router'
+import { prefixLink } from 'gatsby-helpers'
 
 class MarkdownWrapper extends React.Component {
   render () {
@@ -33,8 +33,8 @@ class MarkdownWrapper extends React.Component {
             marginBottom: rhythm(2),
           }}
         />
+        <Link className='nav__link' to={prefixLink('blog/')}>Back To Blog</Link>
         <ReadNext post={post} pages={route.pages} />
-        <Bio />
       </div>
     )
   }
