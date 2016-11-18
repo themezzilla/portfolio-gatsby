@@ -1,0 +1,20 @@
+@import '../../css/mixins.scss';
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0;
+}
+svg {
+  width: 35px;
+  height: 35px;
+  color: $gray;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: color .2s ease;
+  
+  &:hover {
+    color: $secondary;
+  }
+}
