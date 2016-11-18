@@ -34,7 +34,7 @@ class MarkdownWrapper extends React.Component {
           }}
         />
         <Link className='nav__link' to={prefixLink('blog/')}>Back To Blog</Link>
-        <ReadNext post={post} pages={route.pages} />
+        {/* <ReadNext post={post} pages={route.pages} /> */}
       </div>
     )
   }
