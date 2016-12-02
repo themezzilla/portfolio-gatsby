@@ -8,10 +8,10 @@ class Footer extends React.Component {
   render () {
     return (
       <div className='footer'>
-        <a href='https://twitter.com/Kole_MANN'>
+        <a href='https://twitter.com/Kole_MANN' target='_blank'>
           <FaTwitter />
         </a>
-        <a href='https://twitter.com/Kole_MANN' target='_blank'>
+	<a href='https://github.com/themezzilla' target='_blank'>
           <FaGithub />
         </a>
         <a href='https://twitter.com/Kole_MANN' target='_blank'>
