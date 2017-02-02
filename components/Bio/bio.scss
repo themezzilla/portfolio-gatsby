@@ -2,7 +2,7 @@
 
 .bio {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
   h3 {
     font-weight: normal;
@@ -17,4 +17,5 @@
   width: auto;
   height: 250px;
   margin-right: 25px;
+  margin: auto;
 }

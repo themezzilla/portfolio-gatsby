@@ -14,12 +14,7 @@ class Template extends React.Component {
     let header
     header = (
       <div className='header'>
-        <h1
-          style={{
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
+        <h1>
           <Link
             style={{
               boxShadow: 'none',
