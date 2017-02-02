@@ -20,6 +20,8 @@ module.exports = React.createClass({
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
 
+    let favicon = <link rel="icon" href="favicon.ico" />
+
     return (
       <html lang="en">
         <head>
@@ -29,6 +31,7 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          {favicon}
           {head.title.toComponent()}
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
