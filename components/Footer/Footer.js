@@ -8,15 +8,19 @@ class Footer extends React.Component {
   render () {
     return (
       <div className='footer'>
-        <a href='https://twitter.com/Kole_MANN' target='_blank'>
+        <a href="mailto:hello@colemanrollins.io">hello@colemanrollins.io</a>
+        <div className="icons">
+          <a href='https://twitter.com/Kole_MANN' target='_blank'>
           <FaTwitter />
         </a>
-	<a href='https://github.com/themezzilla' target='_blank'>
+	      <a href='https://github.com/themezzilla' target='_blank'>
           <FaGithub />
         </a>
         <a href='https://twitter.com/Kole_MANN' target='_blank'>
           <FaLinkedin />
         </a>
+        </div>
+        <p>© 2017 Coleman Rollins</p>
       </div>
     )
   }
