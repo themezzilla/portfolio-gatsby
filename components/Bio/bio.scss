@@ -2,18 +2,21 @@
 
 .bio {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  margin: 30px 0;
 
-  h3 {
+  h1 {
     font-weight: normal;
+    margin: 0;
+    padding-right: 50px;
   }
 }
 .me {
   border-radius: 5px;
   display: block;
-  -webkit-box-shadow: 10px 10px 0px 0px $primary;
-  -moz-box-shadow: 10px 10px 0px 0px $primary;
-  box-shadow: 10px 10px 0px 0px $primary;
+  -webkit-box-shadow: 6px 6px 0px 0px $secondary;
+  -moz-box-shadow: 6px 6px 0px 0px $secondary;
+  box-shadow: 6px 6px 0px 0px $secondary;
   width: auto;
   height: 250px;
   margin-right: 25px;

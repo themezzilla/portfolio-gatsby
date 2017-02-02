@@ -9,26 +9,27 @@ body {
   overflow: auto;
   background-color: $whiteish;
   color: $blackish;
-}
-
-body,
-h1,
-h2,
-h3,
-p,
-a {
   font-family: $font;
 }
 
 h1,
 h2,
+h3,
+p,
+a {
+   font-family: $font;
+}
+
+h1,
+h2,
 h3 {
-  color: #002E2C;
+  color: $blackish;
 }
 
 a {
-  color: $gray;
+  color: $blackish;
   box-shadow: none;
+  text-decoration: underline;
   transition: color .2s ease;
 
   &:hover {
@@ -45,5 +46,6 @@ a {
 
   h1 {
     margin: 0;
+    font-family: $font-secondary;
   }
 }

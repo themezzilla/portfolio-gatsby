@@ -14,7 +14,6 @@ class Template extends React.Component {
     let header
     header = (
       <div className='header'>
-        <h1>
           <Link
             style={{
               boxShadow: 'none',
@@ -23,9 +22,10 @@ class Template extends React.Component {
             }}
             to={prefixLink('/')}
           >
-            {config.blogTitle}
+            <h1>
+              {config.blogTitle}
+            </h1>
           </Link>
-        </h1>
         <Navigation />
       </div>
     )
