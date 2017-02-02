@@ -30,7 +30,7 @@ class Template extends React.Component {
       </div>
     )
     return (
-      <Container>
+      <Container className="container">
         {header}
         {children}
         <Footer />
