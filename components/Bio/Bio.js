@@ -10,13 +10,15 @@ class Bio extends React.Component {
     return (
       <div className='bio'>
         <img className='me' src={profilePic} alt={`author ${config.authorName}`} />
-        <p>
+        <div>
          <h2>
           I'm a tech agnostic based in Chicago and I'm interested in all things internet. I develop and lead web projects for <Link to={'https://drw.com'} target='_blank'>DRW Trading</Link> and have previously been at <Link to={'http://50000feet.com'} target='_blank'>50,000feet</Link> and <Link to={'https://ten7.com'} target='_blank'>TEN7</Link>.
         </h2>
 
-          Read <Link to='/about/'>about</Link> me or check out my <Link to='/blog/'>blog</Link>
-        </p>
+          <p>
+           Read <Link to='/about/'>about</Link> me or check out my <Link to='/blog/'>blog</Link>
+          </p>
+        </div>
       </div>
     )
   }
