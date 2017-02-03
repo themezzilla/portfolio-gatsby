@@ -19,21 +19,17 @@ class MarkdownWrapper extends React.Component {
           title={`${post.title} | ${config.blogTitle}`}
         />
         <h1 style={{marginTop: 0}}>{post.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.body }} />
         <em
           style={{
             display: 'block',
-            marginBottom: rhythm(2),
+            marginBottom: rhythm(1),
           }}
         >
           Posted {moment(post.date).format('MMMM D, YYYY')}
         </em>
-        <hr
-          style={{
-            marginBottom: rhythm(2),
-          }}
-        />
-        <Link className='nav__link' to={prefixLink('/blog/')}>Back To Blog</Link>
+        <div dangerouslySetInnerHTML={{ __html: post.body }} />
+        
+        <Link className='' to={prefixLink('/blog/')}>Back To Blog</Link>
         {/* <ReadNext post={post} pages={route.pages} /> */}
       </div>
     )
