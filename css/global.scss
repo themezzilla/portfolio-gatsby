@@ -54,3 +54,51 @@ a {
     font-family: $font-secondary;
   }
 }
+
+.me {
+  border-radius: 5px;
+  display: block;
+  -webkit-box-shadow: 6px 6px 7px 0px $primary;
+  -moz-box-shadow: 6px 6px 7px 0px $primary;
+  box-shadow: 6px 6px 7px 0px $primary;
+  width: auto;
+  height: 250px;
+  margin-right: 25px;
+  margin: auto;
+}
+
+// Some footer 
+.footer {
+  svg {
+    width: 35px;
+    height: 35px;
+    color: $blackish;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color .2s ease;
+    
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+// Blog posts list
+.blog__posts {
+  .post {
+    a {
+      font-family: $font-secondary;
+      font-weight: 700;
+      text-transform: lowercase;
+      font-size: 21px;
+    }
+  }
+}
+
+// Posts 
+.markdown {
+    .post__title {
+        font-family: $font-secondary;
+        text-transform: lowercase;
+    }
+}

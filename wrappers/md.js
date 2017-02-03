@@ -5,6 +5,7 @@ import ReadNext from '../components/ReadNext'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
 import '../css/zenburn.css'
+import '../css/post.scss'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 
@@ -18,7 +19,7 @@ class MarkdownWrapper extends React.Component {
         <Helmet
           title={`${post.title} | ${config.blogTitle}`}
         />
-        <h1 style={{marginTop: 0}}>{post.title}</h1>
+        <h1 className="post__title" style={{marginTop: 0}}>{post.title}</h1>
         <em
           style={{
             display: 'block',
