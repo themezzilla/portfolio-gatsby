@@ -20,7 +20,7 @@ module.exports = React.createClass({
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
 
-    let favicon = <link rel="icon" href="favicon.ico" />
+    let favicon = <link rel="icon" href="/favicon.ico" />
 
     return (
       <html lang="en">
