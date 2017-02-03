@@ -69,6 +69,25 @@ a {
 
 // Some footer 
 .footer {
+  display: flex;
+  width: 100%;
+  margin: 10px 0;
+  padding: 20px 0;
+  border-top: 1px solid hsla(0,0%,0%,0.2);
+  justify-content: space-between;
+
+  @include mobile_tablet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    @include mobile_tablet {
+      margin: 10px 0;
+    }
+  }
+
   svg {
     width: 35px;
     height: 35px;
@@ -85,6 +104,10 @@ a {
 
 // Blog posts list
 .blog__posts {
+  @include mobile_tablet {
+    margin: 0;
+  }
+
   .post {
     a {
       font-family: $font-secondary;

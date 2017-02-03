@@ -10,7 +10,14 @@
 
   &__link {
     box-shadow: none;
-    margin: 0 10px;
+    margin-left: 20px;
     text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 960px) {
+  .nav__link {
+    margin-left: 10px;
   }
 }
