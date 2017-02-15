@@ -16,7 +16,7 @@ class Bio extends React.Component {
         </h2>
 
           <p>
-           Read <Link to='/about/'>about</Link> me or check out my <Link to='/blog/'>blog</Link>
+           Read <Link to='/about/'>about</Link> me or check out my <Link to='/blog/'>blog</Link>.
           </p>
         </div>
       </div>

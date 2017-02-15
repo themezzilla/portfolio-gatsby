@@ -19,7 +19,7 @@ module.exports = React.createClass({
     if (process.env.NODE_ENV === 'production') {
       css = <style dangerouslySetInnerHTML={{ __html: require('!raw!./public/styles.css') }} />
     }
-
+    
     let favicon = <link rel="icon" href="/favicon.ico" />
 
     return (
@@ -41,6 +41,7 @@ module.exports = React.createClass({
         <body className="landing-page">
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: body }} />
           <script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+          <script src={prefixLink(`/components/GA/GA.js`)} />
         </body>
       </html>
     )
