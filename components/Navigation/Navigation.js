@@ -9,7 +9,6 @@ class Navigation extends React.Component {
       <div className="nav">
         <Link className='nav__link' to={prefixLink('/blog/')}>blog</Link>
         <Link className='nav__link' to={prefixLink('/about/')}>about</Link>
-        <Link className='nav__link' to={prefixLink('/resume/')}>resume</Link>
       </div>
     )
   }

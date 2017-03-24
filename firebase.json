@@ -1,0 +1,19 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "utils/*",
+      "pages/*",
+      "components/*",
+      "wrappers/*",
+      "yarn.lock",
+      "postTemplate.md"
+    ]
+  }
+}

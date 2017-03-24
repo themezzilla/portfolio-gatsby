@@ -40,7 +40,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build && surge --domain colemanrollins.surge.sh",
+    "deploy": "gatsby build && firebase deploy",
     "createpost": "mkdir pages/`date +'%Y-%m-%d'` && cp postTemplate.md pages/`date +'%Y-%m-%d'`/index.md"
   }
 }
