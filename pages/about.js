@@ -13,8 +13,8 @@ class About extends React.Component {
         <Helmet
           title={about}
           meta={[
-            {"name": "description", "content": {about}},
-            {"name": "keywords", "content": "blog, articles"},
+             {"name": "description", "content": "Coleman Rollins portfolio site"},
+            {"name": "keywords", "content": "blog, development, engineer, web developer, react, gatsby, javascript"},
           ]}
         />
         <h4>who I am</h4>
