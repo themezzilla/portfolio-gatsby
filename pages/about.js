@@ -19,12 +19,12 @@ class About extends React.Component {
         />
         <h4>who I am</h4>
         <p>
-          I'm Coleman, born and raised in chilly Minneapolis and now a resident of Chicago. I'm primarily a front-end engineer and have been making a strong effort to become full-stack. I've worked in a number of different environments throughout my career. From small development shops to a prop trading firm. I pride myself on high standards of work and quality code that lasts.
+          I'm Coleman, born and raised in chilly Minneapolis and now a resident of Chicago. I'm primarily a front-end engineer and have been making a strong effort to become full-stack. I've worked in a number of different environments throughout my career, from small development shops to a prop trading firm. I pride myself on high standards of work and quality code that lasts.
         </p>
          
          <h4>what I'm working on</h4>
          <p>
-          My efforts to become a full-stack include working on projects using Golang, Python and multiple Linux tools. I'm also working on learning Redux and am looking for a project (aside from this one) to further practice my React skills. 
+          My efforts to become a full-stack developer include working on projects using Golang, Python and multiple Linux tools. I'm also working on learning Redux and am looking for a project (aside from this one) to further practice my React skills. 
          </p>
 
          <h4>what I'm interested in</h4>

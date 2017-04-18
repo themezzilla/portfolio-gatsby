@@ -1,6 +1,6 @@
 ---
 title: From 100 to 1 - How my second job search was 99% better
-date: "2016-8-12"
+date: "2016-08-12"
 layout: post
 path: "/blog/100-to-1/"
 ---

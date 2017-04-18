@@ -1,6 +1,6 @@
 ---
 title: Reflections On My Career
-date: "2016-8-31"
+date: "2016-08-31"
 layout: post
 path: "/blog/career-reflections/"
 ---
