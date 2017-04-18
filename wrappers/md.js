@@ -19,7 +19,7 @@ class MarkdownWrapper extends React.Component {
         <Helmet
           title={`${post.title} | ${config.blogTitle}`}
         />
-        <h1 className="post__title" style={{marginTop: 0}}>{post.title}</h1>
+        <h2 className="post__title" style={{marginTop: 0}}>{post.title}</h2>
         <em
           style={{
             display: 'block',
