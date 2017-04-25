@@ -5,4 +5,7 @@ Version 3.0 of my portfolio site complete with blog, built with ReactJS static g
 `$ yarn`
 
 ### Local dev server with livereload
-`$ gatsby develop`
+`$ yarn dev`
+
+### Build for prod
+`$ yarn build`
