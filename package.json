@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-blog",
-  "description": "Starter Gatsby Blog",
+  "name": "Coleman Rollins Portfolio",
+  "description": "Portfolio for Coleman Rollins, software developer",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Coleman Rollins",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
   },
@@ -25,7 +25,7 @@
   "devDependencies": {
     "gh-pages": "^0.11.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://colemanrollins.io",
   "keywords": [
     "gatsby"
   ],
