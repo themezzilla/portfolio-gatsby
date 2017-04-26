@@ -1,6 +1,6 @@
 ---
 title: Thoughts On The Drupal Community From an Ex-Drupaler
-date: "2017-04-28"
+date: "2017-04-17"
 layout: post
 path: "/blog/drupal-community"
 ---
