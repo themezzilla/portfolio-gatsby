@@ -27,7 +27,10 @@
   },
   "homepage": "https://colemanrollins.io",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "blog",
+    "tech"
   ],
   "license": "MIT",
   "main": "n/a",
