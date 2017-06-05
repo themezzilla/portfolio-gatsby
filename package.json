@@ -45,6 +45,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "firebase deploy",
+    "both": "gatsby build && firebase deploy",
     "createpost": "mkdir pages/`date +'%Y-%m-%d'` && cp postTemplate.md pages/`date +'%Y-%m-%d'`/index.md"
   }
 }
