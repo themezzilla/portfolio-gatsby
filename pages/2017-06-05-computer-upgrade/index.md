@@ -19,7 +19,7 @@ I'll sum up the experience in a few bullet points:
 
 Most of these issues can be avoided with a reformat of your hard drive. Should I do this? Probably. Will I? Meh, right now my rig is running great, so I don't feel a huge need at the moment. Possibly when I have a long weekend to really take my time with it.
 
-My new specs :)
-Intel i7-7700k
-NVIDIA GTX1070 8GB
-16GB DDR4 RAM 
+My new specs :)  
+Intel i7-7700k  
+NVIDIA GTX1070 8GB  
+16GB DDR4 RAM  
