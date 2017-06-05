@@ -5,7 +5,7 @@ layout: post
 path: "/blog/webpack-love-hate"
 ---
 
-Everyone knows about the state of web development, and the over-saturation of tools. We all know it's rediculous and impossible to keep up on. However you can't deny that some awesome tools have emerged to help us web devs get the job done better and faster.
+Everyone knows about the state of web development and the over-saturation of tools. We all know it's rediculous and impossible to keep up on. However you can't deny that some awesome tools have emerged to help us web devs get the job done better and faster.
 
 When it comes to development environment and build tools, I have been team Gulp for a while now. There is a Gulp plugin for everything! Set up a task for compiling SCSS, moving things around, development server, minifying JS and so on. The problem is that your `gulpfile.js` quickly became _super_ long, and you have tasks instantiated within tasks and everything is over-complicated. Not to mention you have about 30 lines of dependency requirements at the top of the file.
 
