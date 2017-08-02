@@ -55,7 +55,7 @@ class About extends React.Component {
 
          <h4>what I'm interested in</h4>
          <p>
-          Lately I've taken a strong interest in algorithmic stock trading, and have been experimenting with a service called Quantopian. I also have been trading a lot on my own, working on learning about the market and working on how I can build wealth. On the code front, I'm making an effort to contribute to projects on GitHub, and have started learning TypeScript.
+          Lately I've taken a strong interest in algorithmic stock trading, and have been experimenting with various trading tools. I've been trying to learn as much as I can about the market as a whole, and how I can make good decisions with my money. On the code front, I'm making an effort to contribute to projects on GitHub, and have started learning TypeScript.
          </p>
 
          <h4>what I know</h4>
