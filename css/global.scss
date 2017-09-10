@@ -72,7 +72,7 @@ a {
     margin: auto;
 }
 
-// Some footer 
+// Some footer
 .footer {
     display: flex;
     width: 100%;
@@ -118,10 +118,17 @@ a {
     }
 }
 
-// Posts 
+// Posts
 .markdown {
     .post__title {
         font-family: $font-secondary;
         text-transform: lowercase;
+    }
+    img {
+      width: 75%;
+      margin: auto;
+      @include mobile_tablet {
+        width: 100%;
+      }
     }
 }
