@@ -19,7 +19,7 @@ Next lets look at what time of day people are using the skill. This is a graph o
 
 Each day there is a clear spike between 22:00 UTC and 1:00 UTC, which equates to between 5pm and 8pm CST. This also makes sense! _Most_ users are using my skill while they're cooking dinner in the evening. The echo is an item that is mostly available to the working class, which is consistent with the fact that the most usage occurs when people are home from work. There are a few _extra_ big spikes in this graph, but they don't seem to be correlated with my data earlier about how more people are using the skill on weekends. These spikes are randomly scattered across weekdays.
 
-We'll also take a quick look at whether or not users are using the skill multiple times. Here is the average number of sessions customer, over the 30 days, aggregated daily. A session is defined by Amazon as an instance when the skill is launched, but not necessarily how many times users are asking questions of the skill.
+We'll also take a quick look at whether or not users are using the skill multiple times. Here is the average number of sessions per customer, over the 30 days, aggregated daily. A session is defined by Amazon as an instance when the skill is launched, but not necessarily how many times users are asking questions of the skill.
 
 ![Customers Average Daily](sessions-customer.png)
 
@@ -33,6 +33,6 @@ We can see a fairly consistent graph here, where users are asking between 3 and 
 
 So there you have it. There are some cool things we can learn from Cook Reference's usage data. Most of it isn't too surprising, people are cooking at night and on the weekends, and they're concerned about the safety of their proteins. Maybe I'll make another post down the line if the growth continues and there is more data for us to go through.
 
-I'll leave you with a quick snap of the overview from the past 30 days. So cool to see real people making a thing you made! :)
+I'll leave you with a quick snap of the overview from the past 30 days. So cool to see real people using a thing you made! :)
 
 ![Overview](overview.png)
