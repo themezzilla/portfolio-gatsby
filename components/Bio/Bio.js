@@ -16,7 +16,7 @@ class Bio extends React.Component {
         </h2>
 
           <p>
-           Read <Link to='/about/'>about</Link> me, check out my <Link to='/blog/'>blog</Link> or download <a href="/resume.pdf">my resume</a>. If you like to cook, <a href="http://amzn.to/2wqXviT" target="_blank">check out my Amazon Alexa skill</a>.
+           Read <Link to='/about/'>about</Link> me, check out my <Link to='/blog/'>blog</Link> or download <a href="/resume.pdf">my resume</a>. If you like to cook, <a href="http://amzn.to/2wqXviT" target="_blank">check out my Amazon Alexa skill</a>. I sometimes do freelance projects as well. If you're looking for help, <a href="mailto:hello@colemanrollins.io">email me</a> and we can talk.
           </p>
         </div>
       </div>

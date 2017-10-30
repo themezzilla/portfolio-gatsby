@@ -16,7 +16,7 @@ class Footer extends React.Component {
 	      <a href='https://github.com/jewbetcha' target='_blank'>
           <FaGithub />
         </a>
-        <a href='https://twitter.com/Kole_MANN' target='_blank'>
+        <a href='https://www.linkedin.com/in/coleman-rollins-87384556' target='_blank'>
           <FaLinkedin />
         </a>
         </div>
